@@ -5,7 +5,7 @@ using namespace std;
 int secondMaximum( int arr[], int n){
 
 
-    int res =-1, largest = 0;
+    int res = -1, largest = 0;
 
     for(int i=1; i<n; i++){
         if(arr[i] > arr[largest]){
