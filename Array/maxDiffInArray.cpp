@@ -19,8 +19,6 @@ using namespace std;
 // }
 
 //Efficient Solution
-
-
 int maxDiff(int arr[], int n){
 
     int res = arr[1] - arr[0];
